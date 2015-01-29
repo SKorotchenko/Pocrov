@@ -35,8 +35,8 @@ include 'php/models/newsList.php';
                     <a href="?page=article&id=<?= $list[$i][0] ?>">
                         <?php if ($_COOKIE['lang']=='ua'){
                             print '
-                            <img class="top" src="images/UKR/more_info_ukr.png">
-                            <img class="back" src="images/UKR/more_info_ukr_gold.png">
+                            <img class="top" src="images/UKR/More_info_ukr.png">
+                            <img class="back" src="images/UKR/More_info_ukr_gold.png">
                         ';}
                         elseif ($_COOKIE['lang']=='en'){
                             print '
@@ -65,8 +65,8 @@ include 'php/models/newsList.php';
                 <a href="?page=article&id=<?= $list[$i][0] ?>">
                     <?php if ($_COOKIE['lang']=='ua'){
                         print '
-                            <img class="top" src="images/UKR/more_info_ukr.png">
-                            <img class="back" src="images/UKR/more_info_ukr_gold.png">
+                            <img class="top" src="images/UKR/More_info_ukr.png">
+                            <img class="back" src="images/UKR/More_info_ukr_gold.png">
                         ';}
                     elseif ($_COOKIE['lang']=='en'){
                         print '

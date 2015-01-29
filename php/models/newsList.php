@@ -12,7 +12,7 @@
 	$mysqli->set_charset('utf-8');
 
 // Получаем материалы
-	if($result = $mysqli->query('select * from `news` order by `id`')){
+	if($result = $mysqli->query('select * from `news` order by `date` desc')){
 		$list = array();
 		$i = 0;
 		while($line = $result->Fetch_row())

@@ -13,6 +13,9 @@ $mysqli->set_charset('utf-8');
 
 // добавляем материал
 if(!isset($_POST['materialID'])){
+	if ($_POST['materialImg']{0} == ','){
+        $_POST['materialImg'] = substr($_POST['materialImg'], 1);
+    }
     $q = '
 		insert into `photos` (`slides`)
 		values("'.$_POST['materialImg'].'");
@@ -21,6 +24,9 @@ if(!isset($_POST['materialID'])){
         die('Query error: changeGallery insert');
 // обновляем материал
 } else {
+	if ($_POST['materialImg']{0} == ','){
+        $_POST['materialImg'] = substr($_POST['materialImg'], 1);
+    }
     $q = '
 		update `photos` set
 			`slides` = "'.$_POST['materialImg'].'"

@@ -15,4 +15,3 @@ if($_GET['page'] == 'news')
             if($_GET['id']*1 == $list[$current][0])
                 break;
 ?>
-

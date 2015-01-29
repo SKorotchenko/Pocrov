@@ -1,7 +1,6 @@
 <article class="main">
     <div class="wrapper slide-show">
         <img src="images/slides/Slideshow/slide_1.jpg" alt="image 1">
-        <img src="images/slides/Slideshow/slide_2.jpg" alt="image 2">
         <img src="images/slides/Slideshow/slide_3.jpg" alt="image 3">
         <img src="images/slides/Slideshow/slide_4.jpg" alt="image 4">
         <img src="images/slides/Slideshow/slide_6.jpg" alt="image 6">

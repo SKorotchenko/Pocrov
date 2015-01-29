@@ -26,9 +26,9 @@ include 'php/models/gallery.php';
     <ul class="album-list">
         <?php for ($i=0;$i<count($src);$i++) {?>
         <li>
-            <a href="<?php if(isset($_GET['id'])) print $SITE_CONST['base_path'].$src[$i]?>" data-lightbox="album1">
+            <a href="<?php if(isset($_GET['id'])) print $src[$i]?>" data-lightbox="album1">
                 <div class="to-big-img">
-                    <img src="<?php if(isset($_GET['id'])) print $SITE_CONST['base_path'].$src[$i]?>">
+                    <img src="<?php if(isset($_GET['id'])) print $src[$i]?>">
                 </div>
             </a>
         </li>

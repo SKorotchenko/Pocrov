@@ -19,8 +19,7 @@ if(isset($_GET['clone'])){
 							select `img`,`name`,`date`,`prew`,`content` from `news`
 							where `id`='.$_GET['clone']))
 			die('Query error: cloneNews');
-		header('Location: ?page=newslist');
 	}
+			header('Location: ?page=newslist');
 }
-
 ?>

@@ -1,4 +1,4 @@
-<article class="contacts">
+﻿<article class="contacts">
     <ul class="contacts-block">
         <?php if ($_COOKIE['lang']=='ua'){
             print '
@@ -13,6 +13,7 @@
         </li>
         <li>
             <a href="mailto:info@pokrov-ltd.com.ua">info@pokrov-ltd.com.ua</a>
+		<p>Skype: ooo pokrov</p>
         </li>
     </ul>
     <ul class="block-title">
@@ -65,6 +66,7 @@
         </li>
         <li>
             <a href="mailto:info@pokrov-ltd.com.ua">info@pokrov-ltd.com.ua</a>
+		<p>Skype: ooo pokrov</p>
         </li>
     </ul>
     <ul class="block-title">
@@ -117,6 +119,7 @@
         </li>
         <li>
             <a href="mailto:pokrov-ltd@ukr.net">pokrov-ltd@ukr.net</a>
+		<p>Skype: ooo pokrov</p>
         </li>
     </ul>
     <ul class="block-title">
@@ -143,8 +146,8 @@
         </ul>
         <a class="submit-button" href="?page=gallery">
             <input type="submit" value="" >
-            <img class="top" src="images/images/ENG/send_message_eng.png">
-            <img class="back" src="images/images/ENG/send_message_eng_gold.png">
+            <img class="top" src="images/ENG/send_message_eng.png">
+            <img class="back" src="images/ENG/send_message_eng_gold.png">
         </a>
         <div class="clear"></div>
     </form>

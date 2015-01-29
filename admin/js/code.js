@@ -119,9 +119,9 @@ $(document).on('ready',function(){
             inpVal = inpVal.replace( ','+src, '');
             $('#imgSrc').attr('value', inpVal);
             $(this).remove();
-            if ($('ul.album-list li:first-child').hasClass('add-image')){
-                $('#imgSrc').attr('value', '');
-            }
+			if ($('ul.album-list li:first-child').hasClass('add-image')){
+				$('#imgSrc').attr('value', '');
+			}
         })
 	})
 	

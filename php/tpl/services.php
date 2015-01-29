@@ -1,4 +1,4 @@
-<article class="services">
+﻿<article class="services">
     <div class="content">
         <?php if ($_COOKIE['lang']=='ua'){
             print '
@@ -34,7 +34,7 @@
                 <dd>Дана технологія дозволяє отримувати відмінні від «золота» кольори, наприклад синій, зелений, «мідь» і т.д. У поєднанні з різними поверхнями (супердзеркало, шліфування (HL) це надає дизайнерові безліч різних варіантів для вибору.</dd>
                 <img class="service-image" src="/images/5_another.png">
             <dt><strong>- Виконання робіт по тонуванню скла з різним ступенем прозорості</strong></dt>
-                <dd>Науково-виробнича фірма «Покров» гарантує атмосферостійкість напиленого покриття нітриду титану протягом 50 років, за результатами випробувань на дію промислової атмосфери відповідно нормативним документам з ГОСТ 9.308-85, ГОСТ 9.908-85 і ГОСТ 92-1346-83 на вироби з магнітної нержавіючої сталі 12Х17 ГОСТ 1982-73 і немагнітої нержавіючої сталі 04Х18Н9 ГОСТ 19282-73.</dd>
+                <dd>Науково-виробнича фірма «Покров» гарантує атмосферостійкість напиленого покриття нітрид титану протягом 50 років, по результатам досліджень на дію промислової атмосфери відповідно Протоколу Досліджень №7 2012 року, Протокола Сертифікованих Досліджень №2 2013 року, Протоколу Досліджень №08-15/07-14, Протокола Досліджень №08-01/01-14.</dd>
         </dl>
         <ul class="block-title">
             <li><img src="images/Decor_Guarantee_Upper.png"></li>
@@ -82,6 +82,8 @@
                 <dd>This technology allows other than "gold" color, such as blue, green, "copper" and so on.. In combination with different surfaces (supermirror grinding (HL) it gives the designer a lot of different options to choose from.</dd>
                 <img class="service-image" src="/images/5_another.png">
             <dt><strong>- PERFORM WORKS CONCERNING THE GLASS TONING WITH DIFFERENT DEGREES OF TRANSPARENCY</strong></dt>
+		<p>Scientific-Production Company “Pokrov” ensures the atmosphere-resistance of  titanium nitride coatings for over 50 years, according to results of tests on the influence of the industrial atmosphere in the applicable legislation in accordance with
+        	<strong>the protocol of investigations №7 2012 year, the protocol of sertificated investigations №2 2013 year, the protocol of investigations №08-15/07-14, the protocol of investigations №08-01/01-14.</strong></p>
                 <dd></dd>
         </dl>
         <ul class="block-title">
@@ -89,8 +91,8 @@
             <li><h1 class="with-margin">WARRANTY</h1></li>
             <li><img src="images/Decor_Guarantee_Down.png"></li>
         </ul>
-        <p>Scientific-Production Company “Pokrov” ensures the atmosphere-resistance of  titanium nitride coatings for over 50 years, according to results of tests on the influence of the industrial atmosphere in the applicable legislation in accordance with</p>
-        <p><strong>the State Standard ГОСТ 9.308-85, ГОСТ 9.908-85 and ГОСТ 92-1346-83 on products from the magnetic stainless steel type 12Х17 the State Standard ГОСТ 1982-73 and nonmagnetic stainless steel type 04Х18Н9  the State Standard ГОСТ 19282-73.</strong></p>
+        <p>Scientific-Production Company “Pokrov” ensures the atmosphere-resistance of  titanium nitride coatings for over 50 years, according to results of tests on the influence of the industrial atmosphere in the applicable legislation in accordance with
+        <strong>the State Standard ГОСТ 9.308-85, ГОСТ 9.908-85 and ГОСТ 92-1346-83 on products from the magnetic stainless steel type 12Х17 the State Standard ГОСТ 1982-73 and nonmagnetic stainless steel type 04Х18Н9  the State Standard ГОСТ 19282-73.</strong></p>
     '; }
         else {
             print '
@@ -127,7 +129,7 @@
                 <dd>Данная технология позволяет получать отличные от «золота» цвета, например синий, зеленый, «медь» и т. д. В сочетании с различными поверхностями (суперзеркало, шлифовка (HL) это предоставляет дизайнеру множество различных вариантов для выбора.</dd>
                 <img class="service-image" src="images/5_another.png">
             <dt><strong>- ВЫПОЛНЕНИЕ РАБОТ ПО ТОНИРОВАНИЮ СТЕКЛА С РАЗНОЙ СТЕПЕНЬЮ ПРОЗРАЧНОСТИ</strong></dt>
-                <dd>Научно-производственная фирма «Покров» гарантирует атмосферостойкость напыленного покрытия нитрида титана на протяжении 50 лет, по результатам испытаний на действие промышленной атмосферы в соответствии нормативным документам по ГОСТ 9.308-85, ГОСТ 9.908-85 и ГОСТ 92-1346-83 на изделия из магнитной нержавеющей стали 12Х17 ГОСТ 1982-73 и немагнитной нержавеющей стали 04Х18Н9 ГОСТ 19282-73.</dd>
+                <dd>Научно-производственная фирма «Покров» гарантирует атмосферостойкость напыленного покрытия нитрида титана на протяжении 50 лет, по результатам испытаний на действие промышленной атмосферы в соответствии Протокола Ислледований №7 2012 года,  Протокола Сертификационних Исследований №2 2013 года, Протокола Исследований №08-15/07-14, Протокола Исследований №08-01/01-14.</dd>
         </dl>
         <ul class="block-title">
             <li><img src="images/Decor_Guarantee_Upper.png"></li>
