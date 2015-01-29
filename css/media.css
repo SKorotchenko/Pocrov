@@ -1,0 +1,415 @@
+
+@media screen and (max-width: 1920px) {
+    .gallery-links {
+        left: 68%;
+    }
+
+    .gallery-links.ua{
+        left: 68.5%;
+    }
+
+    .gallery-links.en {
+        left: 67.5%;
+    }
+
+    div.content {
+        width: 62%;
+    }
+
+    .news-text a {
+        width: 140px;
+    }
+
+    .contacts form {
+        width: 64%;
+    }
+
+    textarea {
+        top: 28%;
+        text-indent: 250px;
+        font-size: 14px;
+        line-height: 5.3;
+    }
+
+    .submit-button {
+        width: 140px;
+    }
+
+    .back-button {
+        width: 140px;
+    }
+
+    article.album {
+        width: 62%;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    div.content {
+        width: 67%;
+    }
+
+    .gallery-links {
+        left: 69%;
+    }
+
+    .gallery-links.ua {
+        left: 69.5%;
+    }
+
+    .gallery-links.en {
+        left: 68%;
+    }
+
+    .album-list {
+        width: 75%;
+    }
+
+    .news a, .back-button, .back-button, .submit-button  {
+        width: 140px;
+    }
+
+    .contacts form {
+        width: 68%;
+    }
+
+    textarea {
+        top: 27.7%;
+        text-indent: 243px;
+        font-size: 14px;
+        line-height: 5.22;
+    }
+
+    .submit-button {
+        width: 140px;
+    }
+
+    .back-button {
+        width: 140px;
+    }
+
+    article.album {
+        width: 67%;
+    }
+
+    article.services ul.block-title {
+        width: 32%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    p, article.services p, article.services dl, form input, .documentation a, textarea{
+        font-size: 13px;
+    }
+
+    .gallery-links li a{
+        font-size: 11px;
+    }
+
+    .news h2, article.article h2 {
+        font-size: 22px;
+    }
+
+    span.date {
+        font-size: 14px;
+    }
+
+    .block-title h1 {
+        font-size: 18px;
+    }
+
+    article.services ul.block-title {
+        width: 34%;
+    }
+
+    .news a, .back-button, .back-button, .submit-button  {
+        width: 134px
+    }
+
+    .album-list li {
+        width: 194px;
+        height: 194px;
+    }
+
+    .gallery-links {
+        left: 69.5%;
+    }
+
+    .gallery-links.ua {
+        left: 70%;
+    }
+
+    .gallery-links.en {
+        left: 69%;
+    }
+
+    textarea {
+        top: 171px;
+        text-indent: 216px;
+        line-height: 5.4;
+    }
+}
+
+@media screen and (max-width: 1536px) {
+    .gallery-links {
+        left: 70%;
+    }
+
+    .gallery-links.ua {
+        left: 71%;
+    }
+
+    textarea {
+        top: 170px;
+        text-indent: 218px;
+        line-height: 5.4;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    div.content {
+        width: 73%;
+    }
+
+    p, article.services p, article.services dl, form input, .documentation a, textarea {
+        font-size: 12px;
+    }
+
+    .news a, .back-button, .back-button, .submit-button  {
+        width: 127px;
+    }
+
+    .album-list li {
+        width: 172px;
+        height: 172px;
+    }
+
+    .gallery-links.en {
+        left: 70%;
+    }
+
+    textarea {
+        top: 167px;
+        text-indent: 190px;
+        line-height: 5.7;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .gallery-links {
+        left: 71%;
+    }
+
+    .gallery-links.ua {
+        left: 72%;
+    }
+
+    div.content {
+        width: 76%;
+    }
+
+    .album-list {
+        width: 69%;
+    }
+
+    .album-list li {
+        width: 170px;
+        height: 170px;
+    }
+
+    article.album {
+        width: 76%;
+    }
+
+    .contacts form  {
+        width: 68%;
+    }
+
+    textarea {
+        top: 167px;
+        text-indent: 191px;
+        line-height: 5.7;
+    }
+
+    .news a, .back-button, .back-button, .submit-button  {
+        width: 117px;
+    }
+
+    .block-title h1,  {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    ul.contacts-block {
+        width: 78%;
+    }
+    .gallery-links {
+        left: 72%;
+    }
+
+    .gallery-links.ua {
+        left: 73%;
+    }
+
+    .gallery-links.en {
+        left: 71%;
+    }
+
+    article.services ul.block-title {
+        width: 36%;
+    }
+
+    div.content {
+        width: 79%;
+    }
+
+    .news-text a {
+        width: 117px;
+    }
+
+    .album-list {
+        width: 71%;
+    }
+
+    .album-list li {
+        width: 170px;
+        height: 170px;
+    }
+
+    article.album {
+        width: 79%;
+    }
+
+    .contacts form {
+        width: 68%;
+    }
+
+    textarea {
+        top: 163px;
+        text-indent: 195px;
+        line-height: 5.6;
+    }
+
+    .submit-button {
+        width: 117px;
+    }
+
+    .back-button {
+        width: 117px;
+    }
+
+    .news-right, .news-left {
+        padding: 3% 6%;
+    }
+    .news a, .back-button, .back-button, .submit-button {
+        width: 105px;
+    }
+
+    .block-title h1 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    .album-list li {
+        width: 151px;
+        height: 151px;
+    }
+
+    .gallery-links {
+        left: 74%;
+    }
+
+    .gallery-links.ua {
+        left: 74.5%;
+    }
+
+    .gallery-links.en {
+        left: 72%;
+    }
+
+    ul.contacts-block {
+        width: 88%;
+    }
+
+    .news h2, article.article h2 {
+        font-size: 19px;
+    }
+
+    .descript p{
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    ul.contacts-block {
+        width: 95%;
+    }
+
+    .gallery-links {
+        left: 71%;
+    }
+
+    .gallery-links.ua {
+        left: 71.5%;
+    }
+
+    .gallery-links.en {
+        left: 69%;
+    }
+
+    div.content {
+        /*width: 92%;*/
+        width: 79%;
+    }
+
+    .news h2, article.article h2 {
+        font-size: 17px;
+    }
+
+    p, article.services p, article.services dl, form input, .documentation a, textarea {
+        font-size: 11px;
+    }
+
+    .news-right, .news-left {
+        padding: 2% 6%;
+    }
+
+    /*article.left-img, article.right-img {
+        border-bottom: 1px solid lavender;
+    }*/
+
+    .album-list li {
+        width: 138px;
+        height: 138px;
+    }
+
+    textarea {
+        top: 157px;
+        text-indent: 188px;
+        line-height: 5.99;
+    }
+
+    .block-title h1 {
+        font-size: 16px;
+    }
+
+    ul.contacts-block li p, ul.contacts-block li a{
+        font-size: 14px;
+    }
+
+    ul.contacts-block li:first-child {
+        font-size: 17px;
+    }
+
+    article.services ul.block-title {
+        width: 43%;
+    }
+
+    header nav a {
+        margin: 0 1.5%;
+    }
+}

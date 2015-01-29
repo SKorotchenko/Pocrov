@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* cGallery CSS Document */
+
+.baseGallery {
+	position: relative;
+	overflow: hidden;
+}
+.baseGallery ul[class^="bgMover"] {
+	position: relative;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+	height: 100%;
+	padding: 0;
+	white-space: nowrap;
+}
+.baseGallery ul[class^="bgMover"] li {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	font-size: 0px !important;
+}
+.baseGallery ul[class^="bgMover"] img {
+	width: 100%;
+	/*height: 100%;*/
+}
+.bgUserNextButton,
+.bgUserBackButton {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.bgDisable {
+	visibility: hidden;
+	cursor: default;
+}
+.bgControls {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+	padding: 10px 65% 3px 10px;
+	background: #fff;
+	font-size: 0;
+}
+.bgControls li {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: linear-gradient(to top, #999, #ccc);
+	margin-right: 7px;
+	margin-bottom: 7px;
+	border: 1px solid rgba(0,0,0,0.6);
+	border-radius: 8px;
+	cursor: pointer;
+}
+.bgControls li:hover {
+	background: linear-gradient(to top, #bbb, #eee);
+}
+.bgControls li.active {
+	background: linear-gradient(to top, #444, #888);
+	border-color: #333;
+}
+
+/* ARROWS */
+[class^=bgNextButton],
+[class^=bgBackButton] {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 40px;
+	height: 50px;
+	margin-top: -25px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAAbCAYAAADf98keAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NTJEMDE4Q0Y2OTkzMTFFNEE0M0ZGM0U5Q0QzMDdFMDkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTJEMDE4RDA2OTkzMTFFNEE0M0ZGM0U5Q0QzMDdFMDkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1MkQwMThDRDY5OTMxMUU0QTQzRkYzRTlDRDMwN0UwOSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1MkQwMThDRTY5OTMxMUU0QTQzRkYzRTlDRDMwN0UwOSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjXcE7YAAAKvSURBVHja5NnNqzlRGAfwczR2dLeSlJV0b1lYICVJRG6XSJKtv8hSWcpCeStvSVJC3B1JFrfuQrayoMj5zXP6kddr5q7uzDyr2Yymj2ee+Z5zMCEE5XI5xKcWiwVRq9UYibzC4TBi+N7UarVIu91Gb29vJBKJCAIpmUyS9XqNgsEgMhgMvJ5Z9hschUKBjEajYDoBnnW73aJ8Po+m0ynhcy/DF0cul6P393ek1+sF84rZ7Xa83+/p8wMSW4RrJ8n44sB7ybdN/0I5nU5ssVjQZrPh1UmMFHCO5fP54NlJr9fj3EkMVxz2xwWNc450OBzIYDDghPQQqNPpUBwot9uNTCaTaD7rfr+fzqTPz8+nSLJHOM1mk157vV5kNptFl3kCgQB+fX2lM6lcLqPZbEY4AV3jWK1W0QbCaDRKkSAjFYvFu0iyRzgul0vUOOdI7Ov1EEl2D8fhcNDsgCRSsVgMs7nuLpLsHAfWZZAVIDMgiVU8HsdarfYGiQKNRiOKA632PytIshKJBH55eaFI8IU7AbGzBmGMIV2iSqVCpAqUSqXIarVCgMSOmAsgDF8sQOr3+zQgSg0nnU6T7+9visMObqTRaPDFkD4iQUFAhLkkFZxMJkO+vr5ucG4+8+dIMLS73a7okbLZLIHRAjihUOgC525QBCSPx0Ov6/U6Yhd2RMw4k8nkhKPT6TCnpYbNZjshVatVUSJxwflxP+gaiV39igapUChwwvkR6Bqp0WhANhA8UqlUoqt4LjhP94OOSLAdAPOIzUiIYRhiNBoFGSYh4w2HQ844TzvoupN2ux38A7w3vv8KDuwkKpVKuqfOBYcz0BEJVviABOdoQkKq1WoEAjDgfHx88Dpw4HXsAyv8I9J4PBZM98znc3pUxRcHCv/mZHW5XBKVSiWJk9V/AgwA2yaWxnpwZa8AAAAASUVORK5CYII=) no-repeat #fff;
+	background-position: -42px 50%;
+	opacity: 0.65;
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+[class^=bgBackButton] {
+	right: auto;
+	left: 0;
+	background-position: 11px 50%;
+}
+[class^=bgNextButton]:hover,
+[class^=bgBackButton]:hover {
+	/* background-color: #ddd; */
+	opacity: 1;
+}
+
+/* VERTICAL DIRECTION */
+.baseGallery.bgVertical ul[class^="bgMover"] li {
+	display: block;
+}
+
+
+
+
