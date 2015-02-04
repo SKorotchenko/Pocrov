@@ -626,12 +626,9 @@ article.album{
     margin: 0 auto;
 }
 
-article.album img{
-    width: 100%;
-}
-
 article.album .album-list img {
-    width: 150%;
+    width: auto;
+    height: 325px;
 }
 
 .back-button{
@@ -676,7 +673,7 @@ article.album .album-list img {
 .album-list {
     list-style: none;
     padding: 0;
-    width: 70%;
+    width: 81%;
     margin: 2% auto;
     font-size: 0;
     text-align: left;
@@ -684,10 +681,10 @@ article.album .album-list img {
 }
 
 .album-list li {
-    width: 200px;
+    width: 230px;
     display: inline-block;
     margin: 0.33%;
-    height: 200px;
+    height: 325px;
     overflow: hidden;
 }
 

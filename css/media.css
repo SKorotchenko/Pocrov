@@ -62,7 +62,7 @@
     }
 
     .album-list {
-        width: 75%;
+        width: 85%;
     }
 
     .news a, .back-button, .back-button, .submit-button  {
@@ -129,7 +129,15 @@
 
     .album-list li {
         width: 194px;
-        height: 194px;
+        height: 277px;
+    }
+
+    article.album .album-list img {
+        height: 277px;
+    }
+
+    .album-list {
+        width: 76%;
     }
 
     .gallery-links {
@@ -165,6 +173,10 @@
         text-indent: 218px;
         line-height: 5.4;
     }
+
+    .album-list {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 1440px) {
@@ -182,7 +194,15 @@
 
     .album-list li {
         width: 172px;
-        height: 172px;
+        height: 245px;
+    }
+
+    article.album .album-list img {
+        height: 245px;
+    }
+
+    .album-list {
+        width: 75%;
     }
 
     .gallery-links.en {
@@ -215,7 +235,11 @@
 
     .album-list li {
         width: 170px;
-        height: 170px;
+        height: 242px;
+    }
+
+    article.album .album-list img {
+        height: 242px;
     }
 
     article.album {
@@ -273,11 +297,6 @@
         width: 71%;
     }
 
-    .album-list li {
-        width: 170px;
-        height: 170px;
-    }
-
     article.album {
         width: 79%;
     }
@@ -315,7 +334,11 @@
 @media screen and (max-width: 1152px) {
     .album-list li {
         width: 151px;
-        height: 151px;
+        height: 215px;
+    }
+
+    article.album .album-list img {
+        height: 215px;
     }
 
     .gallery-links {
@@ -378,13 +401,13 @@
         padding: 2% 6%;
     }
 
-    /*article.left-img, article.right-img {
-        border-bottom: 1px solid lavender;
-    }*/
-
     .album-list li {
         width: 138px;
-        height: 138px;
+        height: 197px;
+    }
+
+    article.album .album-list img {
+        height: 197px;
     }
 
     textarea {
